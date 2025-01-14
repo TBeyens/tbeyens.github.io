@@ -1,0 +1,119 @@
+/* General Styles */
+body {
+    font-family: 'Roboto Mono', monospace;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+    scroll-behavior: smooth;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 3rem 1rem;
+    border-bottom: 1px solid black;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    font-weight: 300;
+}
+
+/* Navigation */
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: white;
+    border-bottom: 1px solid black;
+}
+
+nav .container {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0 1rem;
+    color: black;
+    font-weight: 500;
+    transition: opacity 0.3s ease;
+}
+
+nav a:hover {
+    opacity: 0.6;
+}
+
+nav .btn {
+    border: 1px solid black;
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+nav .btn:hover {
+    background: black;
+    color: white;
+}
+
+/* Sections */
+main section {
+    padding: 3rem 1rem;
+    margin: 2rem auto;
+    max-width: 900px;
+    border-bottom: 1px solid black;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+section p, section ul {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style: disc;
+    padding-left: 1.5rem;
+}
+
+/* Skill Cards */
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.skill-card {
+    flex: 1 1 calc(33.333% - 1rem);
+    border: 1px solid black;
+    padding: 1rem;
+    text-align: center;
+    font-weight: 500;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.skill-card:hover {
+    background: black;
+    color: white;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    border-top: 1px solid black;
+}
