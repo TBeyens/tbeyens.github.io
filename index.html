@@ -75,5 +75,25 @@
             <p>© 2025 Thomas Beyens. All rights reserved.</p>
         </div>
     </footer>
+
+    <script>
+        // Select the navbar and the header
+        const navbar = document.getElementById('navbar');
+        const header = document.querySelector('header');
+    
+        window.addEventListener('scroll', () => {
+            // Get the height of the header
+            const headerHeight = header.offsetHeight;
+    
+            if (window.scrollY > headerHeight) {
+                // Add 'sticky' class when scrolling past the header
+                navbar.classList.add('sticky');
+            } else {
+                // Remove 'sticky' class when back above the header
+                navbar.classList.remove('sticky');
+            }
+        });
+    </script>
+
 </body>
 </html>
