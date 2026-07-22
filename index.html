@@ -4,15 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thomas Beyens | Quality Engineering Manager & Test Automation Expert</title>
-    <meta name="description" content="Professional profile of Thomas Beyens, a Quality Engineering Manager and Test Automation expert with 13+ years of experience in Semiconductors, Automotive, and IoT.">
+    <meta name="description" content="Thomas Beyens is a Quality Engineering Manager with 14+ years leading test automation and DevOps across Semiconductors, HVAC, Telecom, Audio, and Automotive.">
     <meta name="keywords" content="Thomas Beyens, Quality Engineering Manager, Test Automation Engineer, DevOps, Python, CI/CD, Robot Framework, Belgium">
-    
+
     <!-- Open Graph / Facebook / LinkedIn -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://tbeyens.github.io/">
     <meta property="og:title" content="Thomas Beyens | Quality Engineering Manager">
     <meta property="og:description" content="Strategic Quality Engineering Leader specializing in Test Automation and DevOps. Bridging the gap between R&D and operational excellence.">
-    <meta property="og:image" content="https://tbeyens.github.io/meta-image.png"> <!-- Placeholder for a future share image -->
 
     <!-- JSON-LD Structured Data -->
     <script type="application/ld+json">
@@ -21,6 +20,7 @@
       "@type": "Person",
       "name": "Thomas Beyens",
       "url": "https://tbeyens.github.io/",
+      "sameAs": ["https://be.linkedin.com/in/thomas-beyens-a8114846"],
       "jobTitle": "Quality Engineering Manager",
       "address": {
         "@type": "PostalAddress",
@@ -28,200 +28,232 @@
         "addressRegion": "Limburg",
         "addressCountry": "Belgium"
       },
-      "description": "Strategic Quality Engineering Leader with a robust background in Test Automation and DevOps across Semiconductor, Automotive, and IoT sectors.",
-      "knowsAbout": ["Test Automation", "DevOps", "Python", "CI/CD", "Quality Assurance", "Embedded Systems"]
+      "description": "Strategic Quality Engineering Leader with 14+ years in Test Automation and DevOps across Semiconductor, HVAC, Telecom, Audio, and Automotive sectors.",
+      "knowsAbout": ["Test Automation", "DevOps", "Python", "CI/CD", "Quality Assurance", "Embedded Systems", "Robot Framework"]
     }
     </script>
-    
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Roboto+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>Thomas Beyens</h1>
-            <p>Quality Engineering Manager</p>
-        </div>
-    </header>
-
     <nav id="navbar">
         <div class="container">
-            <a href="#about">About</a>
-            <a href="#experience">Experience</a>
-            <a href="#education">Education</a>
-            <a href="#contact">Contact</a>
+            <a class="mark" href="#top">
+                <svg viewBox="0 0 120 120" aria-hidden="true">
+                    <path d="M10,30 L42,60 L10,90" stroke="var(--ink)" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                    <path d="M78,28 L112,60 L78,92 Z" fill="var(--clay)"/>
+                </svg>
+                Thomas Beyens
+            </a>
+            <div class="navlinks">
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#education">Education</a>
+                <a href="#contact">Contact</a>
+            </div>
         </div>
     </nav>
+
+    <header class="masthead" id="top">
+        <div class="container">
+            <svg class="mark-large" viewBox="0 0 120 120" aria-hidden="true">
+                <path d="M14,34 L38,60 L14,86" stroke="var(--ink)" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                <path d="M48,34 L72,60 L48,86" stroke="var(--ink)" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                <path d="M82,32 L108,60 L82,88 Z" fill="var(--clay)"/>
+            </svg>
+            <h1>Thomas Beyens</h1>
+            <p class="role">Quality Engineering Manager — Ham, Belgium</p>
+            <p class="lede">I turn test automation from a checkbox into a competitive advantage — <em>fourteen years</em> building CI/CD pipelines and leading validation teams across semiconductors, HVAC, telecom, audio, and automotive.</p>
+            <div class="stats-strip">
+                <div class="stat"><span class="num">14</span><span class="label">Years</span></div>
+                <div class="stat"><span class="num">8</span><span class="label">Companies</span></div>
+                <div class="stat"><span class="num">5</span><span class="label">Industries</span></div>
+            </div>
+        </div>
+    </header>
 
     <main>
         <section id="about">
             <div class="container">
-                <h2>About Me</h2>
-                <p>
-                    Strategic Quality Engineering Leader with a robust background in Test Automation and DevOps. 
-                    I have a proven track record of architecting scalable quality solutions and leading high-performing teams 
-                    across the Semiconductor, Automotive, Audio, and IoT sectors. My goal is to bridge the gap between R&D 
-                    and operational excellence.
-                </p>
+                <p class="eyebrow">About</p>
+                <p class="lede" style="font-size:1.05rem; max-width:38rem;">My path started as a test automation consultant, rotating through client teams to fix broken CI pipelines wherever they broke. Since then I've moved from writing the automation myself to leading the teams that build it — now directing quality strategy end to end, from R&amp;D validation through supplier quality and CAPA. Whatever the industry, the goal hasn't changed: catch problems before they reach a customer, and make the process fast enough that nobody's tempted to skip it.</p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="container">
+                <p class="eyebrow">Core Skills</p>
+                <div class="pills">
+                    <span class="pill">Test Automation Strategy</span><span class="pill">Python</span><span class="pill">CI/CD</span><span class="pill">Docker</span><span class="pill">Robot Framework</span><span class="pill">GitLab CI</span><span class="pill">DevOps</span><span class="pill">Leadership</span>
+                </div>
             </div>
         </section>
 
         <section id="experience">
             <div class="container">
-                <h2>Professional Experience</h2>
+                <p class="eyebrow">Professional Experience</p>
+                <div class="timeline">
 
-                <div class="job">
-                    <h3>Quality Engineering Manager</h3>
-                    <p class="company">PVS, Stevoort, Belgium | 09/2025 - Present</p>
-                    <ul>
-                        <li><strong>Automated Framework Architecture:</strong> Spearheading the design of a company-wide automated testing framework, integrating HW/SW validation into a unified CI/CD pipeline.</li>
-                        <li><strong>Strategic Leadership:</strong> Directing a team of 5 engineers on R&D validation and verification.</li>
-                        <li><strong>Stakeholder Collaboration:</strong> Partnering with executive leadership to define quality KPIs and align engineering roadmaps with business objectives.</li>
-                        <li><strong>Cross-Functional Efficiency:</strong> Architecting a unified testing strategy to bridge R&D and Incoming Quality Control (IQC), drastically reducing lead times.</li>
-                        <li><strong>Quality Governance:</strong> Managing CAPA, Supplier Quality, and End-of-Line (EoL) procedures.</li>
-                    </ul>
-                    <div class="skills-used">
-                        <span>Automation Strategy</span> <span>Python</span> <span>Robot Framework</span> <span>Docker</span> <span>GitLab</span> <span>Leadership</span> <span>Agile</span> <span>CAPA</span> <span>ERP</span> <span>RCA</span> <span>Supplier Quality</span>
+                    <div class="entry current" style="--dot:var(--clay)">
+                        <div class="dot"></div>
+                        <h3>Quality Engineering Manager</h3>
+                        <p class="meta">PVS, Stevoort, Belgium · 09/2025 — Present <span class="now-tag">Now</span></p>
+                        <p class="note">Audio equipment manufacturer — parent of AUDAC, Procab, and Caymon.</p>
+                        <ul>
+                            <li><strong>Automated framework architecture:</strong> spearheading a company-wide automated testing framework, integrating HW/SW validation into a unified CI/CD pipeline.</li>
+                            <li><strong>Strategic leadership:</strong> directing a team of 5 engineers on R&amp;D validation and verification.</li>
+                            <li><strong>Stakeholder collaboration:</strong> partnering with executive leadership to define quality KPIs and align engineering roadmaps with business objectives.</li>
+                            <li><strong>Cross-functional efficiency:</strong> architecting a unified testing strategy bridging R&amp;D and Incoming Quality Control, drastically reducing lead times.</li>
+                            <li><strong>Quality governance:</strong> managing CAPA, supplier quality, and end-of-line procedures.</li>
+                        </ul>
+                        <div class="pills">
+                            <span class="pill">Agile</span><span class="pill">CAPA</span><span class="pill">ERP</span><span class="pill">RCA</span><span class="pill">Supplier Quality</span>
+                        </div>
                     </div>
-                </div>
 
-                <div class="job">
-                    <h3>Test Automation Engineer & Team Lead</h3>
-                    <p class="company">Melexis (via QTeal), Tessenderlo | 05/2024 - 07/2025</p>
-                    <ul>
-                        <li><strong>Architecture:</strong> Spearheaded a unified HW/SW validation framework using Docker and Python.</li>
-                        <li><strong>DevOps:</strong> Integrated Robot Framework into GitLab CI/CD pipelines.</li>
-                        <li><strong>Leadership:</strong> Mentored team members and defined project goals with stakeholders.</li>
-                    </ul>
-                    <div class="skills-used">
-                        <span>Python</span> <span>Docker</span> <span>Robot Framework</span> <span>GitLab CI</span> <span>Embedded Systems</span>
+                    <div class="entry" style="--dot:var(--sage)">
+                        <div class="dot"></div>
+                        <h3>Test Automation Engineer &amp; Team Lead</h3>
+                        <p class="meta">Melexis (via QTeal), Tessenderlo · 05/2024 — 07/2025</p>
+                        <ul>
+                            <li><strong>Architecture:</strong> spearheaded a unified HW/SW validation framework using Docker and Python.</li>
+                            <li><strong>DevOps:</strong> integrated Robot Framework into GitLab CI/CD pipelines.</li>
+                            <li><strong>Leadership:</strong> mentored team members and defined project goals with stakeholders.</li>
+                        </ul>
+                        <div class="pills">
+                            <span class="pill">Embedded Systems</span>
+                        </div>
                     </div>
-                </div>
 
-                <div class="job">
-                    <h3>DevOps & Test Automation Engineer</h3>
-                    <p class="company">BELPARTS NV (via QTeal), Rotselaar | 01/2024 - 05/2024</p>
-                    <ul>
-                        <li>Developed in-house test automation drivers and libraries.</li>
-                        <li>Implemented release management SDLC for software.</li>
-                    </ul>
-                    <div class="skills-used">
-                        <span>Test Automation</span> <span>SDLC</span> <span>GitLab CI</span> <span>Python</span>
+                    <div class="entry" style="--dot:var(--ochre)">
+                        <div class="dot"></div>
+                        <h3>DevOps &amp; Test Automation Engineer</h3>
+                        <p class="meta">BELPARTS NV (via QTeal), Rotselaar · 01/2024 — 05/2024</p>
+                        <ul>
+                            <li>Developed in-house test automation drivers and libraries.</li>
+                            <li>Implemented release management SDLC for software.</li>
+                        </ul>
+                        <div class="pills">
+                            <span class="pill">SDLC</span>
+                        </div>
                     </div>
-                </div>
 
-                <div class="job">
-                    <h3>DevOps & Test Automation Engineer</h3>
-                    <p class="company">Enovates (via QTeal), Lokeren | 01/2023 - 09/2023</p>
-                    <ul>
-                        <li>Automated internal SW Release Processes.</li>
-                        <li>Built dashboards for visualizing test results and SDLC insights.</li>
-                    </ul>
-                    <div class="skills-used">
-                        <span>Dashboarding</span> <span>Release Automation</span> <span>Python</span>
+                    <div class="entry" style="--dot:var(--clay)">
+                        <div class="dot"></div>
+                        <h3>DevOps &amp; Test Automation Engineer</h3>
+                        <p class="meta">Enovates (via QTeal), Lokeren · 01/2023 — 09/2023</p>
+                        <ul>
+                            <li>Automated internal software release processes.</li>
+                            <li>Built dashboards for visualizing test results and SDLC insights.</li>
+                        </ul>
+                        <div class="pills">
+                            <span class="pill">Dashboarding</span><span class="pill">Release Automation</span>
+                        </div>
                     </div>
-                </div>
 
-                <div class="job">
-                    <h3>DevOps & Test Automation Engineer</h3>
-                    <p class="company">Daikin Europe (via QTeal), Ghent | 04/2020 - 03/2023</p>
-                    <ul>
-                        <li>WLAN Adapter platform test development.</li>
-                        <li>Developed custom CI Framework tooling on GitLab-CI.</li>
-                        <li>Created cross-organization debugging tools.</li>
-                    </ul>
-                    <div class="skills-used">
-                        <span>WLAN</span> <span>GitLab CI</span> <span>Tooling</span> <span>Python</span>
+                    <div class="entry" style="--dot:var(--sage)">
+                        <div class="dot"></div>
+                        <h3>DevOps &amp; Test Automation Engineer</h3>
+                        <p class="meta">Daikin Europe (via QTeal), Ghent · 04/2020 — 03/2023</p>
+                        <ul>
+                            <li>WLAN adapter platform test development.</li>
+                            <li>Developed custom CI framework tooling on GitLab CI.</li>
+                            <li>Created cross-organization debugging tools.</li>
+                        </ul>
+                        <div class="pills">
+                            <span class="pill">WLAN</span><span class="pill">Tooling</span>
+                        </div>
                     </div>
-                </div>
 
-                <div class="job">
-                    <h3>DevOps & CI Development Engineer</h3>
-                    <p class="company">NXP Semiconductors (via QTeal), Leuven | 03/2019 - 08/2021</p>
-                    <ul>
-                        <li>Developed CI and automation systems for a complete product-range team.</li>
-                        <li>Backend coding in Groovy for Jenkins support.</li>
-                    </ul>
-                    <div class="skills-used">
-                        <span>Jenkins</span> <span>Groovy</span> <span>CI/CD</span> <span>Embedded</span>
+                    <div class="entry" style="--dot:var(--ochre)">
+                        <div class="dot"></div>
+                        <h3>DevOps &amp; CI Development Engineer</h3>
+                        <p class="meta">NXP Semiconductors (via QTeal), Leuven · 03/2019 — 08/2021</p>
+                        <p class="note">Overlaps with the Daikin engagement above — concurrent contracts, both staffed through QTeal.</p>
+                        <ul>
+                            <li>Developed CI and automation systems for a complete product-range team.</li>
+                            <li>Backend coding in Groovy for Jenkins support.</li>
+                        </ul>
+                        <div class="pills">
+                            <span class="pill">Jenkins</span><span class="pill">Groovy</span><span class="pill">Embedded</span>
+                        </div>
                     </div>
-                </div>
 
-                <div class="job">
-                    <h3>Test Automation Engineer</h3>
-                    <p class="company">SoftAtHome (via QTeal), Wijgmaal | 07/2017 - 03/2019</p>
-                    <ul>
-                        <li>Hardware setup for Mesh WiFi system testing.</li>
-                        <li>Regression testcases and Kibana reporting.</li>
-                    </ul>
-                    <div class="skills-used">
-                        <span>WiFi</span> <span>Kibana</span> <span>Hardware Testing</span>
+                    <div class="entry" style="--dot:var(--clay)">
+                        <div class="dot"></div>
+                        <h3>Test Automation Engineer</h3>
+                        <p class="meta">SoftAtHome (via QTeal), Wijgmaal · 07/2017 — 03/2019</p>
+                        <ul>
+                            <li>Hardware setup for mesh WiFi system testing.</li>
+                            <li>Regression test cases and Kibana reporting.</li>
+                        </ul>
+                        <div class="pills">
+                            <span class="pill">WiFi</span><span class="pill">Kibana</span><span class="pill">Hardware Testing</span>
+                        </div>
                     </div>
-                </div>
-                
-                 <div class="job">
-                    <h3>Software Engineer</h3>
-                    <p class="company">Tass Technology Solutions, Leuven | 08/2013 - 07/2017</p>
-                    <ul>
-                        <li>Test automation consultant for companies including Daikin and Accelleran.</li>
-                        <li>Trainer in CI/CD practices.</li>
-                    </ul>
-                    <div class="skills-used">
-                        <span>C/C++</span> <span>TCP/IP</span> <span>Consulting</span> <span>CI/CD Training</span>
+
+                    <div class="entry" style="--dot:var(--sage)">
+                        <div class="dot"></div>
+                        <h3>Test Automation Consultant</h3>
+                        <p class="meta">Tass Technology Solutions, Leuven · 08/2013 — 07/2017</p>
+                        <ul>
+                            <li>Test automation consultant for companies including Daikin and Accelleran.</li>
+                            <li>Trainer in CI/CD practices.</li>
+                        </ul>
+                        <div class="pills">
+                            <span class="pill">C/C++</span><span class="pill">TCP/IP</span><span class="pill">Consulting</span><span class="pill">CI/CD Training</span>
+                        </div>
                     </div>
+
                 </div>
             </div>
         </section>
 
         <section id="education">
             <div class="container">
-                <h2>Education</h2>
-                <div class="education-item">
-                    <h3>Master Electronics-ICT</h3>
-                    <p>Xios Hogeschool Limburg | 2011 - 2013</p>
+                <p class="eyebrow">Education</p>
+                <div class="edu-item">
+                    <h3>Master, Electronics-ICT</h3>
+                    <p class="meta">Xios Hogeschool Limburg · 2011 — 2013</p>
                     <p>Industrial Engineering</p>
                 </div>
-                <div class="education-item">
-                    <h3>Bachelor Electronics-ICT</h3>
-                    <p>Xios Hogeschool Limburg | 2008 - 2011</p>
+                <div class="edu-item">
+                    <h3>Bachelor, Electronics-ICT</h3>
+                    <p class="meta">Xios Hogeschool Limburg · 2008 — 2011</p>
                 </div>
             </div>
         </section>
 
         <section id="contact">
             <div class="container">
-                <h2>Contact</h2>
-                <p>Email: <a href="mailto:thomas.beyens@gmail.com">thomas.beyens@gmail.com</a></p>
-                <p>Phone: +32472693795</p>
-                <p>Location: Ham, Belgium</p>
+                <div class="contact-card">
+                    <div>
+                        <h2>Let's talk</h2>
+                        <div class="contact-details">
+                            <p>thomas.beyens@gmail.com</p>
+                            <p>Ham, Belgium</p>
+                        </div>
+                    </div>
+                    <div class="actions">
+                        <a class="btn" href="mailto:thomas.beyens@gmail.com">
+                            Send an email →
+                        </a>
+                        <a class="btn btn-ghost" href="https://be.linkedin.com/in/thomas-beyens-a8114846" target="_blank" rel="noopener">
+                            LinkedIn ↗
+                        </a>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
 
     <footer>
         <div class="container">
-            <p>© 2025 Thomas Beyens. All rights reserved.</p>
+            <span>© 2026 Thomas Beyens</span>
+            <span>Built with care, in Belgium</span>
         </div>
     </footer>
-
-    <script>
-        // Select the navbar and the header
-        const navbar = document.getElementById('navbar');
-        const header = document.querySelector('header');
-    
-        window.addEventListener('scroll', () => {
-            // Get the height of the header
-            const headerHeight = header.offsetHeight;
-    
-            if (window.scrollY > headerHeight) {
-                // Add 'sticky' class when scrolling past the header
-                navbar.classList.add('sticky');
-            } else {
-                // Remove 'sticky' class when back above the header
-                navbar.classList.remove('sticky');
-            }
-        });
-    </script>
-
 </body>
 </html>

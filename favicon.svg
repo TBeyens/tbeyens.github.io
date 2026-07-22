@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <style>
+    .ink { stroke: #211D17; }
+    .accent { fill: #C2603C; }
+    @media (prefers-color-scheme: dark) {
+      .ink { stroke: #F2ECDD; }
+      .accent { fill: #E38A63; }
+    }
+  </style>
+  <path class="ink" d="M10,30 L42,60 L10,90" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path class="accent" d="M78,28 L112,60 L78,92 Z"/>
+</svg>
